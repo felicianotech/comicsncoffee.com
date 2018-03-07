@@ -1,0 +1,16 @@
+/* Rules without a media query present take affect when the webpage is 1,000px or
+less. */
+
+main{
+}
+
+
+/************************************************
+ * <= 600px width
+ * *********************************************/
+@media(max-width: 600px){
+
+	main h1{
+		font-size: 4.0rem;
+	}
+}

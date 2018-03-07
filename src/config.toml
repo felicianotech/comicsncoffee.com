@@ -1,0 +1,30 @@
+baseurl = "https://ComicsNCoffee.com/"
+title = "Comics 'N Coffee"
+languageCode = "en-us"
+theme = "hugo-theme-lean-launch-page"
+
+author = "Ricardo N Feliciano (FelicianoTech)"
+googleAnalytics = "UA-115297583-1"
+
+enableEmoji = true
+
+[blackfriday]
+	hrefTargetBlank	=	true
+
+[params]
+tagline = "A Marvel & D.C. podcast covering the movies, shows, & games. Coming Spring 2018."
+mailchimpURL = "//ComicsNCoffee.us12.list-manage.com/subscribe/post?u=35ca6cc79638dc6c958d12c85&amp;id=5fb88a18c8"
+
+twitter = "https://twitter.com/Comics_N_Coffee"
+facebook = "https://www.facebook.com/Comics-N-Coffee-203209147099485"
+instagram = "https://instagram.com/comicsncoffee"
+
+[[menu.main]]
+	name	= "Home"
+	url		= "/"
+	weight	= -1
+
+[[menu.main]]
+	name	= "Newsletter"
+	url		= "/newsletter/"
+	weight	= 10
