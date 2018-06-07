@@ -1,5 +1,5 @@
 baseurl = "https://ComicsNCoffee.com/"
-title = "Comics 'N Coffee"
+title = "Comics 'N' Coffee"
 languageCode = "en-us"
 theme = "hugo-theme-lean-launch-page"
 
@@ -12,7 +12,7 @@ enableEmoji = true
 	hrefTargetBlank	=	true
 
 [params]
-tagline = "A Marvel & D.C. podcast covering the movies, shows, & games. Coming Spring 2018."
+tagline = "A Marvel & D.C. community and podcast covering the movies, shows, figures, and comics. Launching later this month."
 mailchimpURL = "//ComicsNCoffee.us12.list-manage.com/subscribe/post?u=35ca6cc79638dc6c958d12c85&amp;id=5fb88a18c8"
 
 twitter = "https://twitter.com/Comics_NCoffee"

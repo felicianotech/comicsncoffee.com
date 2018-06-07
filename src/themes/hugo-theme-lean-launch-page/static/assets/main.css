@@ -14,7 +14,7 @@ body{
 body{
 	box-sizing: border-box;
 	border-top: 3px solid #444444;
-	background-color: #EBEBEE;
+	background-color: #000000;
 	padding: 20px 20px;
 	height: 100%;
 	text-align: center;
@@ -23,8 +23,8 @@ body{
 }
 	.logo{
 		float: left;
-		width: 50px;
-		height: 50px;
+		width: 100px;
+		height: 100px;
 	}
 
 	ul.social-icons{
@@ -36,7 +36,7 @@ body{
 	h1{
 		margin-top: 10%;
 		margin-bottom: 0;
-		color: #06385d;
+		color: #FFFFF5;
 		font-family: "Nunito";
 		font-size: 3.4rem;
 		letter-spacing: 2px;
@@ -56,7 +56,7 @@ body{
 	p{
 		padding: 2rem 1rem;
 		text-align: center;
-		color: #555555;
+		color: #AEAEAE;
 		font-weight: bold;
 	}
 	
@@ -79,8 +79,7 @@ body{
 			}
 
 			form input[type="submit"]{
-				background-color: #FFD700;
-				background-color: #8e132a;
+				background-color: #B2303A;
 				width: 20%;
 				color: white;
 				font-weight: bold;
@@ -95,7 +94,7 @@ body{
 			list-style-type: circle;
 		}
 			a{
-				color: #444444;
+				color: #FFFFF5;
 				text-decoration: none;
 				font-size: 1.4rem;
 			}
@@ -132,6 +131,11 @@ body{
 }
 
 @media (max-width: 700px){
+	
+	img.logo{
+		float: none;
+	}
+
 	h1{
 		font-size: 3.0rem;
 	}
